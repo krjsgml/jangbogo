@@ -18,6 +18,6 @@
   </span>
   <br>
   <span>
-    <img src="https://img.shields.io/badge/Raspberry Pi-A22846?style=flat-square&logo=RPI&logoColor=RED"/>
+    <img src="https://img.shields.io/badge/RPI?style=flat-square&logo=Raspberry Pi&logoColor=RED"/>
   </span>
 </html>
