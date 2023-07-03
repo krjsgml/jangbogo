@@ -20,4 +20,7 @@
   <span>
     <img src="https://img.shields.io/badge/Raspberry Pi-A22846?style=for-the-badge&logo=Raspberry Pi&logoColor=RED"/>
   </span>
+  <span>
+    <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=Black"/>
+  </span>
 </html>
