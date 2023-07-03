@@ -6,10 +6,10 @@
 # Shopping Assistant Cart
 
 
-<tr>
+<td colspan=10>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-</tr>
-<tr>
+</td>
+<td>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-</tr>
+</td>
 
