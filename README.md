@@ -1,15 +1,15 @@
-### jangbogo 
-**2023 TUK Mechatronics Engineering senier project**  
-Shopping Assistant Cart
-* **Team**
-  + Team Leader : **Kim Ye Jin**
-  + Team Member : **Kim Gun Hee**, **Maeng Ju Won**, **You Jae Hoon**
+## Kim Gun Hee
+**Tracking & ROS with SLAM**
+
 ###### ✏️stack✏️
   <span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   </span>
   <span>
     <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white">
+  </span>
+  <span>
+    <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ROS&logoColor=white">
   </span>
   <span>
     <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
