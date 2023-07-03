@@ -3,10 +3,10 @@
 **OpenCV Python**
 - **HaarCascade🧑🏻**  
   use haarcascade_upperbody.xml [(download)](https://github.com/anaustinbeing/haar-cascade-files/tree/master)  
-  First, when a user appears in the camera, the object is recognized using this.  
+  First, when a object(user) appears in the camera, the object is recognized and detected using this(haarcascade).  
   
 - **Tracker📷**  
-  And if you click the Region with the mouse, the Region is set as an ROI and passed to the Tracker API.  
+  And if you click the area detected user with the mouse, the area is set as an ROI and passed to the Tracker API.  
   Tracker APIs include **KCF, CSRT, MOSSE**, and so on.  
   We used **KCF** among these. Because I judged that our project had no occlusion.  
   (KCF is based on Kernelized Correlation Filters algorithm)  
