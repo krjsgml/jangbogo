@@ -2,8 +2,8 @@ import socket
 from _thread import *
 import time
 
-HOST = '172.30.1.63'
-PORT = 3333
+HOST = 
+PORT = 
 
 print('connect server')
 
