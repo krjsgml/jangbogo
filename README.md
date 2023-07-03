@@ -5,5 +5,5 @@
 
 # Shopping Assistant Cart
 <p align="center">
-  <img src="![Uploading 0703.jpg…]()">
+  <img src="![0703](https://github.com/krjsgml/jangbogo/assets/95139209/f2144a0f-e0d0-47d6-97f3-020d384d21bd)">
 </p>
