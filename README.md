@@ -4,7 +4,7 @@
 ### Team Member : Kim Gun Hee, Maeng Ju Won, You Jae Hoon
 
 <title>
-    Shopping Cart Assistant
+    <p>"shopping cart assistant"</p>
 </title>
 <span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
