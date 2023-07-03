@@ -1,6 +1,6 @@
 ### jangbogo 
 #### 2023 TUK Mechatronics Engineering senier project
-####  Shopping Assistant Cart
+Shopping Assistant Cart
 > Team Leader : Kim Ye Jin
 > > Team Member : Kim Gun Hee, Maeng Ju Won, You Jae Hoon
 ###### ✏️stack✏️
