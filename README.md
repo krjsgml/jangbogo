@@ -4,18 +4,16 @@
 ### Team Member : Kim Gun Hee, Maeng Ju Won, You Jae Hoon
 
 <html>
-<head>
-  <title>HTML Elements Reference</title>
-</head>
-<body>
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
-</body>
+  <body>
+    <h1>Shopping Cart Assistant</h1>
+    <p>Our Senior Project</p>
+  </body>
 
-<span>
+  <p>Language</p>
+  <span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-</span>
-<span>
+  </span>
+  <span>
     <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-</span>
+  </span>
 </html>
