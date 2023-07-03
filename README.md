@@ -6,7 +6,7 @@
   + Team Member🌙 : **Kim Gun Hee**, **Maeng Ju Won**, **You Jae Hoon**
      <img align=center src=https://github.com/krjsgml/jangbogo/assets/95139209/96ce8de9-78a7-4a79-b052-8871846cdfd9.png width="400" height="300"/>
 
-###### ✏️our stack✏️
+##### ✏️our stack✏️
   <span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   </span>
