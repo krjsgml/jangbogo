@@ -8,9 +8,10 @@
     <h1>Shopping Cart Assistant</h1>
     <p>Our Senior Project</p>
   </body>
-<br>
-<br>
-
+  <br>
+  <br>
+</html>
+  
 #####✏️stack✏️
   <span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
@@ -32,4 +33,4 @@
   <span>
     <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/>
   </span>
-</html>
+
