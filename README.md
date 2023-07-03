@@ -1,13 +1,21 @@
 ## 😊Kim Gun Hee😊  
-### 1. Tracking with Vision📷  
-OpenCV Python
-- HaarCascade  
-  dd
-- Tracker  
-  dd
+### 1. Tracking with Vision📸  
+**OpenCV Python**
+- **HaarCascade🧑🏻**  
+  use haarcascade_upperbody.xml [(download)](https://github.com/anaustinbeing/haar-cascade-files/tree/master)  
+  First, when a user appears in the camera, the object is recognized using this.  
   
+- **Tracker📷**  
+  And if you click the Region with the mouse, the Region is set as an ROI and passed to the Tracker API.  
+  Tracker APIs include **KCF, CSRT, MOSSE**, and so on.  
+  We used **KCF** among these. Because I judged that our project had no occlusion.  
+  (KCF is based on Kernelized Correlation Filters algorithm)
+  
+- **Result**
+  <br><br>
+  <img src="https://github.com/krjsgml/jangbogo/assets/95139209/6fee0e7a-8904-46d1-b88b-c7a2d0f065b2">
 
-### 2. ROS with SLAM🤖  
+<!-- ### 2. ROS with SLAM🤖  -->
 
 ##### ✏️our stack✏️
 <span>
