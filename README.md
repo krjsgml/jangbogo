@@ -4,4 +4,6 @@
 # Team Member : Kim Gun Hee, Maeng Ju Won, You Jae Hoon
 
 # Shopping Assistant Cart
-<img src="C:\Users\qhfn7\OneDrive\바탕 화면\0703.jpg">
+<p align="center">
+  <img src="https://github.com/krjsgml/jangbogo/issues/2#issue-1786031418">
+</p>
