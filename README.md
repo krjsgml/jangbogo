@@ -11,7 +11,7 @@
   We used **KCF** among these. Because I judged that our project had no occlusion.  
   (KCF is based on Kernelized Correlation Filters algorithm)  
   
-- **Result**
+- **Result🔥**
   <br><br>
   <img src="https://github.com/krjsgml/jangbogo/assets/95139209/6fee0e7a-8904-46d1-b88b-c7a2d0f065b2">
   
