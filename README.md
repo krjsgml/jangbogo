@@ -4,4 +4,4 @@
 # Team Member : Kim Gun Hee, Maeng Ju Won, You Jae Hoon
 
 # Shopping Assistant Cart
-<img/ "C:\Users\qhfn7\OneDrive\바탕 화면\0703.jpg">
+<img src="C:\Users\qhfn7\OneDrive\바탕 화면\0703.jpg">
