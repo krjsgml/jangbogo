@@ -1,8 +1,9 @@
 ### jangbogo 
 #### 2023 TUK Mechatronics Engineering senier project  
-Shopping Assistant Cart  
-> Team Leader : Kim Ye Jin
-> > Team Member : Kim Gun Hee, Maeng Ju Won, You Jae Hoon
+#### Shopping Assistant Cart  
+##### * Team
+##### + Team Leader : Kim Ye Jin
+##### + Team Member : Kim Gun Hee, Maeng Ju Won, You Jae Hoon
 ###### ✏️stack✏️
   <span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
