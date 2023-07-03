@@ -9,7 +9,7 @@
     <p>Our Senior Project</p>
   </body>
 
-  <p>Language</p>
+
   <span>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   </span>
