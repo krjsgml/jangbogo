@@ -11,13 +11,13 @@
 
 
   <span>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   </span>
   <span>
-    <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
+    <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
   </span>
   <br>
   <span>
-    <img src="https://img.shields.io/badge/Raspberry Pi-A22846?style=flat-square&logo=RPI&logoColor=RED"/>
+    <img src="https://img.shields.io/badge/Raspberry Pi-A22846?style=for-the-badge&logo=RPI&logoColor=RED"/>
   </span>
 </html>
