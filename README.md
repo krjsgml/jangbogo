@@ -9,11 +9,15 @@
   And if you click the Region with the mouse, the Region is set as an ROI and passed to the Tracker API.  
   Tracker APIs include **KCF, CSRT, MOSSE**, and so on.  
   We used **KCF** among these. Because I judged that our project had no occlusion.  
-  (KCF is based on Kernelized Correlation Filters algorithm)
+  (KCF is based on Kernelized Correlation Filters algorithm)  
   
 - **Result**
   <br><br>
   <img src="https://github.com/krjsgml/jangbogo/assets/95139209/6fee0e7a-8904-46d1-b88b-c7a2d0f065b2">
+  
+- **Reference**
+  + https://webnautes.tistory.com/1352  
+  + https://bkshin.tistory.com/entry/OpenCV-32-%EA%B0%9D%EC%B2%B4-%EC%B6%94%EC%A0%81%EC%9D%84-%EC%9C%84%ED%95%9C-Tracking-API
 
 <!-- ### 2. ROS with SLAM🤖  -->
 
