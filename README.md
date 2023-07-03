@@ -22,40 +22,64 @@
 <!-- ### 2. ROS with SLAM🤖  -->
 
 ##### ✏️our stack✏️
+<!--Python-->
 <span>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+</span>
+
+<!--OpenCV-->
 <span>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white">
 </span>
+
+<!--Qt-->
 <span>
   <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=Qt&logoColor=white">
 </span>
+
+<!--ROS-->
 <span>
   <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ROS&logoColor=white">
 </span>
+
+<!--C-->
 <span>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
 </span>
+
+<!--Linux-->
 <span>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black"/>
 </span>
+
 <br>
+<!--VS-->
 <span>
   <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=for-the-badge&logo=Visual Studio&logoColor=white"/>
 </span>
+
+<!--VS Code-->
 <span>
   <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white"/>
 </span>
+
+<!--GitHub-->
 <span>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>
 </span>
+
+<!--Git-->
 <span>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/>
 </span>
+
 <br>
+<!--RPI-->
 <span>
   <img src="https://img.shields.io/badge/Raspberry Pi-A22846?style=for-the-badge&logo=Raspberry Pi&logoColor=white"/>
 </span>
+
+<!--Arduino-->
 <span>
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=black"/>  
 </span>  
