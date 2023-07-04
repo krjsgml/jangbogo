@@ -22,7 +22,7 @@
 
 <!-- ### 2. ROS with SLAM🤖  -->
 
-<div aligin="center"> 
+<div align="center"> 
 
 ##### ✏️our stack✏️
 
