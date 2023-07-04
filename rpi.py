@@ -3,13 +3,8 @@ from _thread import *
 import time
 import RPi.GPIO as GPIO
 
-<<<<<<< HEAD
-HOST
-PORT
-=======
 HOST = 
 PORT = 
->>>>>>> b7a52f3e90b9286e7dffa6bfb06c871d11980e25
 
 print('connect server')
 
