@@ -13,7 +13,7 @@
   
 - **Result🔥**
   <br><br>
-  <img src="https://github.com/krjsgml/jangbogo/assets/95139209/6fee0e7a-8904-46d1-b88b-c7a2d0f065b2">  
+  <img src="https://github.com/krjsgml/jangbogo/assets/95139209/6fee0e7a-8904-46d1-b88b-c7a2d0f065b2">
   ###### (code in result.py😊)
   
 - **Reference**
