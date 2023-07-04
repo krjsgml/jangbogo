@@ -3,8 +3,13 @@ from _thread import *
 import time
 import RPi.GPIO as GPIO
 
+<<<<<<< HEAD
 HOST
 PORT
+=======
+HOST = 
+PORT = 
+>>>>>>> b7a52f3e90b9286e7dffa6bfb06c871d11980e25
 
 print('connect server')
 
@@ -140,5 +145,10 @@ while True:
     
     elif tracking_motor == 0:
         continue
+<<<<<<< HEAD
     
 GPIO.cleanup() # GPIO 초기화
+=======
+
+    
+>>>>>>> b7a52f3e90b9286e7dffa6bfb06c871d11980e25

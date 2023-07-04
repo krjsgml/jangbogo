@@ -3,8 +3,8 @@ from _thread import *
 import cv2
 import numpy as np
 
-HOST = '172.30.1.63'
-PORT = 3333
+HOST = 
+PORT = 
 
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))

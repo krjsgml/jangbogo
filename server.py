@@ -58,8 +58,8 @@ def wait():
     global start_flag
     global client_sockets
 
-    host = "172.30.1.63"
-    port = 3333
+    host = 
+    port = 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_socket.bind((host, port))
