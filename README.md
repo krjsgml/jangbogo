@@ -100,5 +100,5 @@
 
 <!--Jetson Nano-->
 <span>
-  <img src="https://img.shields.io/badge/Jetson Nano-76B900?style=flat&logo=NVIDIA&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jetson Nano-76B900?style=for-the-badge&logo=NVIDIA&logoColor=white"/>
 </span>  
