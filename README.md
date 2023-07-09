@@ -23,7 +23,7 @@
   <img src="https://github.com/krjsgml/jangbogo/assets/95139209/6fee0e7a-8904-46d1-b88b-c7a2d0f065b2">
   ###### (code in result.py😊)
   
-- **Reference**
+- **Reference📖**
   + https://webnautes.tistory.com/1352  
   + https://bkshin.tistory.com/entry/OpenCV-32-%EA%B0%9D%EC%B2%B4-%EC%B6%94%EC%A0%81%EC%9D%84-%EC%9C%84%ED%95%9C-Tracking-API
 
