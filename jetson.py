@@ -3,8 +3,11 @@ from _thread import *
 import cv2
 import numpy as np
 
-HOST = 
-PORT = 
+#HOST = '172.30.1.63'
+#HOST = "172.30.1.58"  # EH408
+#HOST = "172.30.1.88"  # EH408
+HOST = "172.30.1.63"  # EH408
+PORT = 3333
 
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))
@@ -17,8 +20,8 @@ user_face = 0
 start_flag = 0
  
 ### 이미지 속성 변경 3 = width, 4 = height
-#cam.set(3, 640)
-#cam.set(4, 480)
+cam.set(3, 293)
+cam.set(4, 220)
  
 ## 0~100에서 90의 이미지 품질로 설정 (default = 95)
 encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 60]
@@ -41,9 +44,12 @@ def recv_data(client_socket) :
 
     while True:
         data = client_socket.recv(1024)
-        sig = data.decode()
-        print("recive : ",repr(data.decode()))
-
+        try:
+            sig = data.decode()
+            print("recive : ",repr(data.decode()))
+        except:
+            continue
+        
         if sig == "1":
             flag = 1
 
@@ -58,15 +64,13 @@ def recv_data(client_socket) :
                 user_face = tuple(map(int, sig.strip("()").split(",")))
                 print(user_face)
                 user_flag = 0
-        
-        #elif sig in ",":
-        #    user_face = tuple(map(int, sig.strip("()").split(",")))
-        #    print(user_face)
+                flag = 2
 
         if (sig == 'w' and sig == 'e' and sig == 'r'
             and sig == 's' and sig == 'd' and sig == 'f'
             and sig == 'x' and sig == 'c' and sig == 'v'):
             pass
+
 
         
 start_new_thread(recv_data, (client_socket,))
@@ -89,19 +93,21 @@ while True:
 
         client_socket.sendall((str(len(stringData))).encode().ljust(16) + stringData)
 
+
     elif flag == 2:
         # 비디오의 한 프레임씩 읽는다.
         # 제대로 읽으면 ret = True, 실패면 ret = False, frame에는 읽은 프레임
         ret, frame = cam.read()
         frame = cv2.flip(frame, 1)
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         if start_flag == 0:
-            trackerKCF.init(frame, user_face)
+            trackerKCF.init(gray, user_face)
             start_flag = 1
 
         elif start_flag == 1:
             # 추적 객체 위치 업데이트
-            isUpdated, trackObjectTuple = trackerKCF.update(frame) 
+            isUpdated, trackObjectTuple = trackerKCF.update(gray) 
             if isUpdated: 
                 x1 = (int(trackObjectTuple[0]) , int(trackObjectTuple[1]) ) 
                 x2 = (int(trackObjectTuple[0] + trackObjectTuple[2]), int(trackObjectTuple[1] + trackObjectTuple[3])) 
@@ -112,75 +118,40 @@ while True:
                 flag = 0
 
             # 좌측 상단
-            if int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) < 270 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 100:
-                #print('low left')
-                msg = "w"
-
-            # 좌측 중간
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) < 270 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 100 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) <= 190:
-                #print('mid left')
-                msg = "s"
-
-            # 좌측 하단
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) < 270 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 480:
-                #print('high left')
-                msg = "x"
-   
-            # 중간 상단
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) >= 270 and \
-                int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) <= 370 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 100:
-                #print('low front')
-                msg = "e"
-    
-            # 중간 중간
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) >= 270 and \
-                int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) <= 370 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 100 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) <= 190:
-                #print('mid front')
-                msg = "d"
-    
-            # 중간 하단
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) >= 270 and \
-                int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) <= 370 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 480:
-                #print('high front')
-                msg = "c"
-
-            # 우측 상단
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) < 640 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 100:
-                #print('low right')
-                msg = "r"
-
-            # 우측 중단
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) < 640 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 100 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) <= 190:
-                #print('mid right')
+            if int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) >= 0 and \
+               int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) <= 70 and \
+               int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 30 and \
+               int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 120:
                 msg = "f"
-
-            # 우측 하단
-            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) < 640 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 480:
-                #print('high right')
-                msg = "v"
-
-            # 매우 가까운 경우
-            elif int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) <= 50 and \
-                int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 0:
-                #print("User very close")
+                #print('right')
+               
+               
+            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) > 70 and \
+                 int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) <= 150 and \
+                 int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 30 and \
+                 int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 120:
+                msg = "d"
+                #print('forward')
+           
+            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) > 150 and \
+                 int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) <= 220 and \
+                 int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 30 and \
+                 int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 120:
+                msg = "s"
+                #print('left')
+               
+            elif int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) >= 0 and \
+                 int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) <= 220 and \
+                 int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) >= 0 and \
+                 int(trackObjectTuple[1] + (trackObjectTuple[3]/2)) < 30:
+                msg = "q"
+                #print('stop')
+            
+            else:
                 msg = "q"
                 
             client_socket.sendall(msg.encode())
-
             cv2.imshow("track object", frame) 
-
             cv2.waitKey(1)
 
     elif flag == 3:
