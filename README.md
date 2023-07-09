@@ -2,7 +2,7 @@
 ### 1. Tracking with Vision📸  
 **OpenCV Python**
 - **HaarCascade🧑🏻**  
-  use haarcascade_upperbody.xml [(download)](https://github.com/anaustinbeing/haar-cascade-files/tree/master)  
+  use haarcascade_upperbody.xml and haarcascade_frontalface_default.xml  
   First, when a object(user) appears in the camera, the object is recognized and detected using this(haarcascade).  
   
 - **Tracker📷**  
