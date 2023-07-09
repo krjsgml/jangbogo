@@ -97,3 +97,8 @@
 <span>
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=black"/>  
 </span>  
+
+<!--Jetson Nano-->
+<span>
+  <img src="https://img.shields.io/badge/Jetson Nano-76B900?style=flat&logo=NVIDIA&logoColor=white"/>
+</span>  
