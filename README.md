@@ -13,7 +13,7 @@
 
 - **Issue⚠️**  
   Face recognition program using Haarcascade is slow due to Raspberry Pi hardware performance issues.  
-  So I set the ROI in the frame so that the Haarcascade algorithm is applied only in that area.  
+  So, I set the ROI in the frame so that the Haarcascade algorithm is applied only in that area, reducing the frame to be operated to improve the speed.  
   |Face in ROI|Face not in ROI|
   |:---|:---|
   |<img src="https://github.com/krjsgml/jangbogo/assets/95139209/a019c97f-e056-46dd-943d-eec00bc2e0e8">|<img src="https://github.com/krjsgml/jangbogo/assets/95139209/e218cdd9-93e5-4f92-8b77-320ab1ce1099">|
