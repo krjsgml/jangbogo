@@ -12,7 +12,7 @@
   (KCF is based on Kernelized Correlation Filters algorithm)  
 
 - **Issue⚠️**  
-  Face recognition program using Haarcascade is slow due to Raspberry Pi hardware performance issues.
+  Face recognition program using Haarcascade is slow due to Raspberry Pi hardware performance issues.  
   So I set the ROI in the frame so that the Haarcascade algorithm is applied only in that area.  
   |Face in ROI|Face not in ROI|
   |:---|:---|
