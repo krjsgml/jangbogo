@@ -47,6 +47,8 @@ client_socket.connect((HOST, PORT))
 #pwm2 = GPIO.PWM(PWM2, 10) # PWM2 설정
 #pwm1.start(0)
 #pwm2.start(0)
+#pwm1.ChangeFrequency(500)
+#pwm2.ChangeFrequency(500)
 #
 #GPIO.output(IN1, GPIO.HIGH) # IN1 핀 출력 설정
 #GPIO.output(IN2, GPIO.LOW) # IN2 핀 출력 설정
