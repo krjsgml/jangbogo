@@ -69,8 +69,12 @@ while True:
         x1 = (int(trackObjectTuple[0]) , int(trackObjectTuple[1]) ) 
         x2 = (int(trackObjectTuple[0] + trackObjectTuple[2]), int(trackObjectTuple[1] + trackObjectTuple[3])) 
         cv2.rectangle(frame, x1, x2, (255, 0, 0), 2) 
+    else:
+        print('no tracking')
+        
     cv2.imshow("track object", frame) 
     # cv2.imshow('roi_image', roi_img)
+
 
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break 

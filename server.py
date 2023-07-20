@@ -173,6 +173,7 @@ class VideoWindow(QMainWindow):
         global jetson_c
         global rpi_c
         global off
+        global running
         off = 1
 
         if start_flag == 1:
@@ -252,9 +253,15 @@ class VideoWindow(QMainWindow):
                 off = 0
 
         elif start_flag == 2:
-            data = jetson_c.recv(1024) 
-            #print(data.decode())
-            rpi_c.sendall(data)
+            try:
+                data = jetson_c.recv(1024) 
+                #print(data.decode())
+                if data.decode() == '0':
+                    start_flag = 0
+                    running = False
+                rpi_c.sendall(data)
+            except:
+                pass
 
 
     def mousePressEvent(self, event):
