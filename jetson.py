@@ -115,9 +115,7 @@ while True:
 
             # user가 frame에서 없어졌을 때, tracking이 더 이상 진행되지 않을 때
             else:
-                flag = 3
-                client_socket.sendall("0".encode())
-
+                flag = 0
 
             # 좌측 상단
             if int(trackObjectTuple[0] + (trackObjectTuple[2]/2)) >= 0 and \
