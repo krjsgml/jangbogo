@@ -36,9 +36,7 @@
 **2-4 플로우차트**  
 <p align="center">
   <img src="https://github.com/krjsgml/jangbogo/assets/95139209/296a0a25-1d98-46ce-ae07-d5ce162bf5dc" width="550" height="380">
-<br>
-
-**2-5 주요 실적**  
+</p>
 
 <br><br>
 
