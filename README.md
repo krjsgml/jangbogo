@@ -57,10 +57,10 @@
 **3-2 제38회 제어로봇시스템학회 학술대회 수상**
 <p align="center">
   <span>
-    <img src="https://github.com/krjsgml/jangbogo/assets/95139209/1cda65f7-a14d-43ce-895e-56f0d959f80a" width="400" height="300">
+    <img src="https://github.com/krjsgml/jangbogo/assets/95139209/1cda65f7-a14d-43ce-895e-56f0d959f80a" width="400" height="500">
   </span>
   <span>
-    <img src="https://github.com/krjsgml/jangbogo/assets/95139209/35b4770b-438e-41f3-848a-158210428d95" width="400" height="300">
+    <img src="https://github.com/krjsgml/jangbogo/assets/95139209/35b4770b-438e-41f3-848a-158210428d95" width="400" height="500">
   </span>
 </p>
 
