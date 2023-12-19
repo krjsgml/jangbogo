@@ -54,7 +54,7 @@
 </p>
 <br>
 
-**3-2 제38회 제어로봇시스템학회 학술대회 수상**
+**3-2 제38회 제어로봇시스템학회 학술대회 수상** <br>
 (논문 : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11480499)
 <p align="center">
   <span>
