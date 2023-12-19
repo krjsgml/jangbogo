@@ -63,6 +63,12 @@
     <img src="https://github.com/krjsgml/jangbogo/assets/95139209/35b4770b-438e-41f3-848a-158210428d95" width="400" height="500">
   </span>
 </p>
+<br>
+
+**3-3 2023년 88로봇데이 쉐어챌린지 장려상**
+<p align="center">
+    <img src="https://github.com/krjsgml/jangbogo/assets/95139209/ef184e6f-f584-441a-9e6f-41e05b18cc3a="300">
+</p>
 
 <br><br>
 ##### ✏️our stack✏️
